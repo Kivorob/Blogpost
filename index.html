@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Блог Кроша</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="header">
+      <img src="./img/logo.png" alt="" class="logo" />
+      <h1 class="title_text">Блог Кроша</h1>
+      <span>Ну Ёлки-Иголки...</span>
+      <nav class="header_navbar">
+        <a href="#" class="header_navbar__item">Начало блога</a>
+        <a href="#" class="header_navbar__item">Статейка</a>
+        <a href="#" class="header_navbar__item">Подвальчик</a>
+      </nav>
+    </section>
+    <section class="content">
+      <div class="post">
+        <h2 class="post_title">
+          Когда Мы уже на море пойдём? На улице такая жарища, а вы сидите по домам :(
+        </h2>
+        <span class="about_info">Да сегодня, Елки-Иголки</span>
+        <figure>
+          <img src="./img/main.jpg" alt="" class="post_image" />
+          <figcaption>А это я жду вас на бережку)</figcaption>
+        </figure>
+        <p class="post_text">
+            Что-то мы как-то неправильно живем! Почему мы еще ни разу не выбрались на море? 
+            <br>
+            Погода стоит отличная - сейчас только на песочке нежится! Так что всех экстренно жду на бережку)
+            <br>
+            И еще кое-что: возьмите кто-нибудь мячик для волейбола - поиграем.
+        </p>
+        <blockquote> <i>Всем нужны гвозди - Миру нужны гвозди.</i></blockquote>
+      </div>
+      <div class="comments">
+        <h2 class="comments_title">Комментарии</h2>
+        <div class="comments__item">
+          <img src="./img/sov.jpg" alt="Sov" class="comments__item__avatar" />
+          <div class="comments__item__content">
+            <span class="about_info">Совунья</span>
+            <br />
+            <span class="about_info">Сегодня</span>
+            <br />
+            <p>А кремом защитным мазаться кто будет?</p>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="./img/pin.jpg" alt="" class="comments__item__avatar" />
+          <div class="comments__item__content">
+            <span class="about_info">Пин</span>
+            <br />
+            <span class="about_info">Сегодня</span>
+            <br />
+            <p>Йа, йа. Погода жаркий, я лучше в холодильнике посижу</p>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="./img/eg.jpg" alt="" class="comments__item__avatar" />
+          <div class="comments__item__content">
+            <span class="about_info">Ёжик</span>
+            <br />
+            <span class="about_info">Сегодня</span>
+            <br />
+            <p>Уже бегу!!!</p>
+          </div>
+        </div>
+        <div class="comment_form">
+          <form action="#">
+            <p class="comment_form__input">
+              <input type="text" placeholder="Ваше имя" id="name" />
+            </p>
+            <p class="comment_form__input">
+              <input type="text" placeholder="example@mail.com" id="email" />
+            </p>
+            <p class="comment_form__input">
+              <input type="text" name="text" placeholder="Введите текст" id="text">
+            </p>
+            <button class="submit__button" type="submit">
+              Опубликовать комментарий
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <span>Лосяш что-то говорил про авторские права, но я не слушал особо</span>
+      <a
+        href="https://vk.com/smeshariki"
+        class="vk_logo"
+        target="_blank"
+      >
+        <img src="./img/vk_icon.png" alt="vk-logo" class="vk_logo" />
+      </a>
+    </section>
+  </body>
+</html>
